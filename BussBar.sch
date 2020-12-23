@@ -99,18 +99,18 @@ Text GLabel 3950 1750 2    50   Output ~ 0
 Connection ~ 3950 2150
 Text GLabel 3950 1950 2    50   Output ~ 0
 GND
-Text GLabel 4600 1800 0    50   Input ~ 0
+Text GLabel 4600 1900 0    50   Input ~ 0
 -12
-Text GLabel 4600 2000 0    50   Input ~ 0
+Text GLabel 4600 2450 0    50   Input ~ 0
 +12
 Text GLabel 5350 1900 0    50   Input ~ 0
 GND
 $Comp
-L Switch:SW_DPST ON/OFF1
+L Switch:SW_DPDT_x2 ON/OFF1
 U 1 1 5FEB7DE5
 P 4800 1900
-F 0 "ON/OFF1" H 4800 2225 50  0000 C CNN
-F 1 "SW_DPST" H 4800 2134 50  0000 C CNN
+F 0 "ON/OFF1" H 4800 2100 50  0000 C CNN
+F 1 "SW_DPST" H 4800 2200 50  0000 C CNN
 F 2 "RobsFoots:SW_CK_Lever_DPDT_72xx_CircularHoles" H 4800 1900 50  0001 C CNN
 F 3 "~" H 4800 1900 50  0001 C CNN
 	1    4800 1900
@@ -138,8 +138,6 @@ F 3 "~" H 5600 2200 50  0001 C CNN
 	1    5600 2200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5000 2000 5000 2350
 Wire Wire Line
 	5000 2350 5600 2350
 Wire Wire Line
@@ -439,4 +437,27 @@ Text GLabel 9700 2650 2    50   Input ~ 0
 GND
 Text Notes 7150 6750 0    157  ~ 0
 Schematic V0.0.1
+$Comp
+L Switch:SW_DPDT_x2 ON/OFF1
+U 2 1 5FEDA711
+P 4800 2450
+F 0 "ON/OFF1" H 4750 2250 50  0000 C CNN
+F 1 "SW_DPST" H 4750 2150 50  0000 C CNN
+F 2 "RobsFoots:SW_CK_Lever_DPDT_72xx_CircularHoles" H 4800 2450 50  0001 C CNN
+F 3 "~" H 4800 2450 50  0001 C CNN
+	2    4800 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7050 1850 0    50   Input ~ 0
+GND
+Text GLabel 7050 2650 0    50   Input ~ 0
+GND
+Text GLabel 8250 1850 0    50   Input ~ 0
+GND
+Text GLabel 8250 2650 0    50   Input ~ 0
+GND
+Text GLabel 9200 2650 0    50   Input ~ 0
+GND
+Text GLabel 9200 1850 0    50   Input ~ 0
+GND
 $EndSCHEMATC
