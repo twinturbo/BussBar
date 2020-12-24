@@ -124,8 +124,8 @@
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (path /5FEBD117)
-    (fp_text reference D2 (at 1.27 -3.96 270) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference +12V (at 5.45 0.332) (layer F.SilkS)
+      (effects (font (size 1.5 1.5) (thickness 0.2)))
     )
     (fp_text value "LED +12" (at 1.27 3.96 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -145,8 +145,8 @@
     (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
     (tags "LED diameter 5.0mm 2 pins")
     (path /5FEBB4E9)
-    (fp_text reference D1 (at 1.27 -3.96 270) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
+    (fp_text reference -12V (at 5.41 0.624) (layer F.SilkS)
+      (effects (font (size 1.5 1.5) (thickness 0.2)))
     )
     (fp_text value "LED -12" (at 1.27 3.96 270) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -282,7 +282,7 @@
   )
 
   (module ROBSLIBRARY:shoebw-cu (layer F.Cu) (tedit 0) (tstamp 5EC9B99B)
-    (at 60.6 29.24)
+    (at 91.45 130.98)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -381,7 +381,7 @@
   )
 
   (module ROBSLIBRARY:GFX1FC (layer F.Cu) (tedit 0) (tstamp 5EC91871)
-    (at 28.69 21.37)
+    (at 90.8 83.17)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -1311,7 +1311,7 @@
   (gr_text CLAYTUNE (at 91.71 209.76) (layer F.Cu) (tstamp 5EC9198D)
     (effects (font (size 3 3) (thickness 0.3) italic))
   )
-  (gr_text "CLAYTUNE - Simple Mixer V1.0 - By TwinTurbo" (at 102.604 127.058 90) (layer B.Cu) (tstamp 5EC91990)
+  (gr_text "CLAYTUNE - BussBar V0.0.1 - By TwinTurbo" (at 102.604 127.058 90) (layer B.Cu) (tstamp 5EC91990)
     (effects (font (size 1.5 1.5) (thickness 0.3) italic))
   )
 
