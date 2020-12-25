@@ -6,7 +6,14 @@
 ############################################################################
 #  #1   23/12/20   12:00   RC    - New File				   #
 #  #2   23/12/20   20:00   RC	 S Initial Schematic Done  V0.0.1          #
-#  #    23/12/20   20:49   RC    P Initial PCB laid out V0.0.1             #
+#  #3   23/12/20   20:49   RC    P Initial PCB laid out V0.0.1             #
+#  #4   24/12/20   08:40   RC    F Front Panel Copied In V0.0.1            #
+#  #5   24/12/20   08:44   RC    P Standoff Holes                          #
+#  #6   24/12/20   09:58   RC    F New Mounting Holes		           #
+#  #7   24/12/20   10:58   RC    F Boards Aligned                          # 
+#  #8   24/12/20   13:10   RC    F Openings Aligned                        #
+#  #9   24/12/20   13:24   RC    F Labels                                  #
+#  #10  24/12/20   13:30   RC    F Filled andf netted                      #
 ############################################################################
 
 
