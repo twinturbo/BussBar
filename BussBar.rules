@@ -1,7 +1,7 @@
 
 (rules PCB BussBar
   (snap_angle 
-    fortyfive_degree
+    none
   )
   (autoroute_settings
     (fanout off)
@@ -9,9 +9,9 @@
     (postroute on)
     (vias on)
     (via_costs 50)
-    (plane_via_costs 5)
+    (plane_via_costs 1)
     (start_ripup_costs 100)
-    (start_pass_no 626)
+    (start_pass_no 1)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -63,7 +63,7 @@
     )
   )
   (class "kicad_default"
-    "Net-(D1-Pad1)" GND "Net-(D2-Pad2)" "-12" +12 +12s "-12s" "Net-(ON/OFF1-Pad3)"
+    GND "Net-(D1-Pad1)" "Net-(D2-Pad2)" "-12" +12 +12s "-12s" "Net-(ON/OFF1-Pad3)"
     "Net-(ON/OFF1-Pad6)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
