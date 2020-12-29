@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 0)
     (zones 0)
     (modules 11)
@@ -1307,6 +1307,9 @@
       (xy -0.647259 -12.024255) (xy -0.626714 -12.016411)) (layer F.Cu) (width 0.01))
   )
 
+  (gr_text "Big Red Buss- PCB V 0.1.0" (at 231.42 173.66) (layer Dwgs.User) (tstamp 5FE61ED4)
+    (effects (font (size 4 4) (thickness 0.15)))
+  )
   (gr_text CLAYTUNE (at 91.67 208.84) (layer F.Cu) (tstamp 5FE61710)
     (effects (font (size 3 3) (thickness 0.3)))
   )
